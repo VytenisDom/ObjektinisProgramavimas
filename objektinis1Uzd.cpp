@@ -18,10 +18,11 @@ int main() {
     antra[n+1] = ' ';
     antra[n+2] = ' ';
 
+    if(name[name.length()-1] != 's'){
+        introduction = " Sveika, ";
+    }
+
     string trecia = "* " + introduction + name + "!  *";
-
-
-
 
     cout<<pirma<<endl;
     cout<<antra<<endl;
