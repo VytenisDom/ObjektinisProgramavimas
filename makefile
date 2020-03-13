@@ -1,0 +1,6 @@
+main: func.o
+	g++ -std=c++17 -o main penktaUzd.cpp func.o
+fun:
+	g++ c- func.cpp
+run:
+	./main
